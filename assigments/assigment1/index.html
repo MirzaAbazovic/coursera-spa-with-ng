@@ -15,12 +15,13 @@
 <body>
    <div class="container" ng-controller="lunchController">
      <h1>Lunch Checker</h1>
-
          <div class="form-group">
              <input id="lunch-menu" type="text" ng-model="dishes"
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control">
          </div>
+         Empty item is NOT consider as dish. i.e. 'Baked Teriyaki Chicken,, , ,,Spinach Enchiladas,, ,,' are only two dishes. 
+         <span  ng-show="dishCount">Current number of dishes is <span class="badge">{{dishCount}}</span></span>
          <div class="form-group">
              <button class="btn btn-default" ng-click="check()">Check If Too Much</button>
              <!-- button could be disabled while there is no input with: ng-disabled="!dishes" -->
