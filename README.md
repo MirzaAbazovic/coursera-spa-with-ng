@@ -1,7 +1,7 @@
 #Single Page Web Applications with AngularJS
 https://www.coursera.org/learn/single-page-web-apps-with-angularjs/home/welcome
 
-## [Assignment 1](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment1/Assignment-1.md) =>  [Solution](https://mirzaabazovic.github.io/coursera-spa-with-ng/assigments/assigment1/index.html)
+## [Assignment 1](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment1/Assignment-1.md) =>  [Solution](https://mirzaabazovic.github.io/coursera-spa-with-ng/assignments/assignment1/index.html)
 ### NOTES
 * browser-sync
 Start server listening for changes in all folder and files --files "**/*" and list direcorty --direcotry 
@@ -25,3 +25,5 @@ browser-sync start --server --directory --files "**/*"
         firstController.$inject = ["$scope","$filter"];
         function firstController($scope,$filter){/*controller body*/}
 ```
+
+## [Assignment 2](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment2/Assignment-2.md) =>  [Solution](https://mirzaabazovic.github.io/coursera-spa-with-ng/assignments/assignment2/index.html)
