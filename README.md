@@ -27,3 +27,4 @@ browser-sync start --server --directory --files "**/*"
 ```
 
 ## [Assignment 2](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment2/Assignment-2.md) =>  [Solution](https://mirzaabazovic.github.io/coursera-spa-with-ng/assignments/assignment2/index.html)
+## [Assignment 3](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment3/Assignment-3.md) =>  [Solution](https://mirzaabazovic.github.io/coursera-spa-with-ng/assignments/assignment3/index.html)
